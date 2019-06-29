@@ -5,7 +5,7 @@ import Sidebar from './sidebar';
 import Main from './main'
 
 
-const App = () => {
+export default () => {
   return (
     <div className="App">
       <Sidebar />
@@ -13,5 +13,3 @@ const App = () => {
     </div>
   );
 };
-
-export default App;
