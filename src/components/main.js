@@ -1,7 +1,7 @@
 import React from "react";
 import "./main.css";
 import Empty from "../components/empty";
-import ChatWindow from "../components/chatWindow";
+import ChatWindow from "../containers/chatWindow";
 
 const Main = ({ user, activeUserId }) => {
   const renderMainContent = () => {
